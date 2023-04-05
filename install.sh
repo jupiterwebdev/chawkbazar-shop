@@ -1,6 +1,5 @@
 #!/bin/sh
 cd chawkbazar-api
-
 FILE=.env
 if [ ! -f "$FILE" ]; then
     echo 'Creating .env file...'
